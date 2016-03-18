@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+legend{
+	color:#fd0e25;
+	font-weight:bold;
+}
+fieldset{
+	color:black;
+	width: 500px;
+	border: solid #fd0e25 1px;
+}
+input{
+	background-color:#fff3f3;
+	margin-left:100px;
+	border-radius:5px;
+	width:200px;
+	border: solid #fd0e25 1px;
+	height:17px;
+	
+}
+label{
+	display:block;
+	text-align:right;
+	float:left;
+	width:100px;
+}
+.radio{
+	margin-left:162px;
+}
+.row{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+button{
+	background-color: #fff3f3;
+    box-shadow: 1px 1px 5px #fd0e25;
+    border-radius: 5px;
+    margin:20px;
+    border: solid #fd0e25 1px;
+    width:100px;
+    height:auto;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulaire</title>
+<link rel="stylesheet" href="myFirstStyle.css">
+</head>
+<body>
+<h1>Hello Sir</h1>
+	<form method="POST" action="Controller">
+		<fieldset>
+			<legend>Personal information :</legend>
+		  		<div class="row">
+		  			<label for="first">First Name: </label>
+		  				<input type="text" name="first">
+		  		</div>
+		  		<div class="row">
+		  			<label for="last">Last Name: </label>
+		  				<input type="text" name="last">
+		  		</div>
+		</fieldset>
+		<fieldset>
+			<legend>Birth Day :</legend>
+				<div class="row">
+		  			<label for="birth">Date:</label>
+		  				<input type="date" name="birth">
+		  		</div>
+		</fieldset>
+		<fieldset>
+			<legend>Sex :</legend>
+				<div class="row">
+					<label for="Homme">Male</label>
+		  				<input class="radio" name="sex" value="Homme" id="Homme" type="radio" onChange="toggleFM('male')" checked>
+		  		</div>
+		  		<div class="row">
+					<label for="Femme">Female</label>
+						<input class="radio" name="sex" value="Femme" id="Femme" type="radio" onChange="toggleFM('female')">
+				</div>
+		</fieldset>
+		
+		<button type="submit" onclick="validateMyForm()">Envoyer</button>
+	</form>
+	<script src="myFirstScript.js"></script>
+  
+</body>
+</html>
